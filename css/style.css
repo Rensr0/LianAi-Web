@@ -1,0 +1,86 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-image: radial-gradient(circle, #f48de1, #ef9bdf, #eaa7dd, #e4b3db, #debfd8);
+	height: 100vh;
+	background-blend-mode: multiply;
+	margin: 0;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	display: flex;
+	font-size: 150%;
+	padding: 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	margin-left: 30px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+h1 {
+	font-size: 650%;
+	color: white;
+	margin: 0;
+	display: inline-block;
+}
+
+p {
+	color: white;
+	font-size: 400%;
+	margin: 0;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 30px;
+	transform: translate(-50%, -50%);
+}
+
+.centered:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+}
+
+#days {
+	font-size: 36px;
+	margin-top: 20px;
+	font-size: 200%;
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 200%;
+		/* 在小屏幕上减小标题字体大小 */
+	}
+
+	p {
+		font-size: 200%;
+		/* 在小屏幕上减小段落字体大小 */
+	}
+	.centered {
+	width: 80%;
+}
+}

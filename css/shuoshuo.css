@@ -1,0 +1,35 @@
+.love {
+	margin-top: 5%;
+}
+
+#post-form {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#post-content {
+	width: 80%;
+	height: 50px;
+	background: rgba(0, 0, 0, 0.1);
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	border-radius: 30px;
+	padding: 5%;
+}
+
+#post-content::placeholder {
+	color: white;
+}
+
+.post {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.love {
+		margin-top: 15%;
+	}
+}
